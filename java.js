@@ -4,7 +4,7 @@ window.onload = function () {
     var icons = document.querySelector(".icons");
     var paragraphText = document.getElementById("paragraph-text");
     var step = 1;
-    var stepMinutes = [2000, 9000, 8000, 0]; // Adjust the timing here
+    var stepMinutes = [2000, 5000, 8000, 0]; // Adjust the timing here
 
     function init() {
         box.addEventListener("click", openBox, false);
